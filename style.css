@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background: linear-gradient(135deg, #1e1e90, #ff0055);
+    min-height: 100vh;
+}
+h1,h2{
+    text-align: center;
+}
+header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+hr{
+    color: black;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.box {
+    background-color: black;
+    padding: 30px 50px;
+    border-radius: 30px;
+    margin-bottom: 2em;
+}
+
+.box h2 {
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box li {
+    margin: 10px 0;
+}
+
+.dafo{
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap:1em;
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+
+}
+.debilidades li{
+    justify-content: center;
+    align-items: center;
+}
+.debilidades{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding: 30px 50px;
+}
+.amenazas li{
+    justify-content: center;
+    align-items: center;
+}
+.amenazas{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding: 30px 50px;
+}
+.fortalezas li{
+    justify-content: center;
+    align-items: center;
+}
+.fortalezas{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding: 30px 50px;
+}
+.oportunidades li{
+    justify-content: center;
+    align-items: center;
+}
+.oportunidades{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding: 30px 50px;
+}
+.horarios{
+    justify-content: center;
+    text-align: center;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: black;
+    padding: 25px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-agregar {
+    background-color: white;
+    color:black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+ 
+ 
+.btn-agregar:hover {
+    background-color: #be32ac;
+}
+ 
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: white;
+}
+ 
+ 
+th,td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+}
+
+th {
+    background-color: #be32ac;
+    font-weight: 500;
+}
+
+tr:hover {
+    background-color: #be32ac;
+}
+ 
+ 
+select {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    color: #000000;
+}
+ 
+ 
+.btn-eliminar {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+ 
+ 
+.btn-eliminar:hover {
+    background-color: #be32ac;
+}
+ 
+ 
+.horas-trabajadas {
+    font-weight: bold;
+    color: black;
+}
+ 
+ 
+.nombre-empleado {
+    color: black;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 90%;
+}
+ 
